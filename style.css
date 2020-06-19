@@ -1,0 +1,162 @@
+body {
+  background: #FFFBFB;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+div {
+ background: #FFFBFB;
+}
+
+/*Bannière*/
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: black;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.margin {
+	text-align: left;
+	margin-right: 300px;
+	margin-left: 400px;
+}
+
+/*Haut de la page 3 traits*/
+
+.line-transparent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line-light {
+  height: 5px;
+  width: 20%;
+  background: #FFBBBB;
+}
+
+.line-medium {
+  height: 5px;
+  width: 30%;
+  background: #FF9898;
+}
+
+.line-hard {
+  height: 5px;
+  width: 50%;
+  background: #FF7575;
+}
+
+/*Navbar*/
+
+.my-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FF9898;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 30px;
+  color: #FF7575;
+}
+
+.link:hover {
+  color: #FF7575;
+}
+
+.logo {
+	height: 5%;
+	width: 5%;
+}
+
+h1 {
+  color: black;
+  font-size: 34px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h2 {
+  color: black;
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h3, h4 {
+  font-size: 28px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h4, ul, ol {
+  text-align: center;
+}
+
+.service {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.cadre {
+  background: #FF9898;
+  border: 3px solid #FFBBBB;
+  margin: 20px 100px;
+  padding: 30px 70px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+
+/*Boutons*/
+
+.my-btn-pink {
+  display: inline-block;
+  color: white;
+  background: #C86472;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.my-btn-pink:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+a:hover {
+  color: #FF7575;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+
+.design {
+  width: 300px;
+  height: 550px;
+  object-fit: cover;
+}
+
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
